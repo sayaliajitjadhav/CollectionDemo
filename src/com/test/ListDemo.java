@@ -1,6 +1,7 @@
 package com.test;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListDemo {
@@ -10,6 +11,12 @@ public class ListDemo {
 		list.add("sayali");
 		list.add("ram");
 		list.add("nikita");
-		System.out.println("list>>>"+list);
-	}
+		Iterator<String> itr=list.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println("list>>>>"+itr.next());
+		}
+			
+		}
+	
 }
