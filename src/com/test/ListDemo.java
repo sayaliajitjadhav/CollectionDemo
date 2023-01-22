@@ -14,8 +14,10 @@ public class ListDemo {
 		Iterator<String> itr=list.iterator();
 		while(itr.hasNext())
 		{
+			System.out.println("enter data="itr.next());
+
 			System.out.println("enter name=");
-			System.out.println("" city=");
+			System.out.println(" city=");
 			
 
 			
