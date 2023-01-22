@@ -15,6 +15,8 @@ public class ListDemo {
 		while(itr.hasNext())
 		{
 			System.out.println("enter name=");
+			System.out.println("" city=");
+			
 
 			
 		}
