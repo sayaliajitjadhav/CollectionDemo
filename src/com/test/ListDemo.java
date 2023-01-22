@@ -14,7 +14,9 @@ public class ListDemo {
 		Iterator<String> itr=list.iterator();
 		while(itr.hasNext())
 		{
-			System.out.println("list>>>>"+itr.next());
+			System.out.println("enter name=");
+
+			
 		}
 			
 		}
